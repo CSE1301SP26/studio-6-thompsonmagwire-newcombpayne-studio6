@@ -17,7 +17,8 @@ public class IterativeMethods {
 		for (int power = 1; power <= n; ++power) {
 			sum = sum + Math.pow(0.5, power);
 		}
-		return sum;
+		return sum; 
+		
 	}
 
 	/**
